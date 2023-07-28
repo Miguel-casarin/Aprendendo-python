@@ -1,0 +1,5 @@
+print('calculo do valor a ser pago pelo aluguel de caro')
+v1=float(input('Quantos dia o caro rodou?'))
+v2=float(input('quantos km foram percoridos?'))
+v3=(v1*60)+(v2*0.15)
+print('O valor a ser pago é: {:.2f}'.format(v3))

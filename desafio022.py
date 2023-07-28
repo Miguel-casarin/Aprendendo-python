@@ -1,0 +1,5 @@
+name=str(input('digite seu nome completo:  ')).strip()
+print('o seu nome em maisusculo fica:   {}'.format(name.upper()))
+print('o seu nome em minusculo fica:    {}'.format(name.lower()))
+print('no total seu nome possui         {}  letras'.format(len(name) - name.count(' ')))
+print('seu primeiro nome tem            {}  letras'.format(name.find(' ')))
